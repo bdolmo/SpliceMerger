@@ -1,0 +1,23 @@
+Copyright @ 2001, The Institute for Genomic Research (TIGR). All rights
+reserved.
+
+This system is licensed as open source under the terms in the file LICENSE.
+
+
+GeneSplicer is a program trained to find splice sites in Arabidopsis 
+Thaliana. 
+USAGE: genesplicer <fasta-file> <specific-genome-training-directory> [options]
+Options:
+-f file_name     Write the results in file_name
+-a t             Choose t as a threshold for the acceptor sites
+-d t             Choose t as a threshold for the donor sites
+-e n             The maximum acceptor score within n bp is chosen
+-i n             The maximum donor score within n bp is chosen
+-h               Display these options of the program
+Output:
+End5 End3 Score "confidence" splice_site_type
+E.g. :
+202 203 2.994010 Medium donor
+
+Mihaela Pertea
+mpertea@tigr.org
